@@ -1,0 +1,42 @@
+body {
+background-color: rgba(0, 0, 0, 0.896);
+}
+.page {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.header {
+    background-color: rgba(0, 0, 0, 0.935);
+}
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.935);
+}
+.nav-image {
+    width: 40px;
+}
+#heading1 {
+    color: darkturquoise;
+    font:bold;
+    align-content: start;
+    width: 75vw;
+}
+#heading2 {
+    color: rgba(255, 255, 255, 0.576);
+    align-self: end;
+}
+.maincontent {
+    height: 80vh;
+    color: rgba(255, 255, 255, 0.759);
+}
+.contentList {
+    padding: 10px;
+}
+.contentHeading {
+    font-size: xxx-large;
+}
+.footer {
+    background-color: rgba(249, 244, 244, 0.35);
+}
